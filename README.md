@@ -12,28 +12,28 @@ OpenCV, NumPy, Pillow, tqdm, scikit-image and tensorboardX.
 ## Datasets
 
 <details>
-  <summary><b>SntheticBurst training dataset</b></summary>
-**Preparation:** Download the Zurich RAW to RGB canon set from [here](https://data.vision.ee.ethz.ch/bhatg/zurich-raw-to-rgb.zip) and unpack the zip folder.directory.
+<summary><b>SntheticBurst training dataset</b></summary>
+
+Download the Zurich RAW to RGB canon set from [here](https://data.vision.ee.ethz.ch/bhatg/zurich-raw-to-rgb.zip) and unpack the zip file.
 </details>
 
 <details>
 <summary><b>SyntheticBurst testing dataset</b></summary>
-The dataset can be loaded using `SyntheticBurstVal` class in [dataset/synthetic_burst_val_set.py](dataset/synthetic_burst_val_set.py) file.
 
-**Preparation:**  Downloaded the dataset [here](https://data.vision.ee.ethz.ch/bhatg/SyntheticBurstVal.zip) and unpack the zip file. 
+Downloaded the dataset [here](https://data.vision.ee.ethz.ch/bhatg/SyntheticBurstVal.zip) and unpack the zip file. 
 </details>
 
 <details>
 <summary><b>real-world BurstSR traing and testing dataset</b></summary> 
-The dataset can be loaded using `BurstSRDataset` class in [dataset/burstsr_dataset.py](dataset/burstsr_dataset.py) file.
 
-**Preparation:** The dataset can be downloaded and unpacked using the 
+The train and test dataset can be downloaded and unpacked using the 
 [util_scripts/download_burstsr_dataset.py](util_scripts/download_burstsr_dataset.py) script. 
 </details>
 
 ## Quick Start
 ### Pre-trained models
-we provide the pre-trained models in the ./pretrained_networks folder.
+
+we provide the pre-trained models in the [./pretrained_networks] folder.
 
 
 ### Test on SyntheticBurst Dataset
@@ -67,6 +67,5 @@ python ./run_training.py dbsr RBSR_realworld
 Please change the the `burstsr_dir` variable in [admin/local.py](admin/local.py) to your train dataset path.
 
 ## Acknowledgement
-The toolkit uses code from the following projects:
 - This implementation is based on[deep-burst-sr](https://github.com/goutamgmb/deep-burst-sr).
 - We borrow some codes from [mmagic](https://github.com/open-mmlab/mmagic), which is an open-source image and video editing toolbox.
