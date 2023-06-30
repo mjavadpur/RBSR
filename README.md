@@ -41,7 +41,7 @@ You can test RBSR on SyntheticBurst dataset by running
 ```bash
 python ./run_test_syn.py 
 ```
-Please change the the `synburstval_dir` variable in [admin/local.py](admin/local.py) to your test datset path.
+Please change the the `synburstval_dir` variable in [admin/local.py](admin/local.py) to your test dataset path.
 
 
 ### Test on BurstSR Dataset
@@ -49,7 +49,7 @@ You can test RBSR on BurstSR dataset by running
 ```bash
 python ./run_test_real.py 
 ```
-Please change the the `burstsr_dir` variable in [admin/local.py](admin/local.py) to your test datset path.
+Please change the the `burstsr_dir` variable in [admin/local.py](admin/local.py) to your test dataset path.
 
 
 ## Train on SyntheticBurst Dataset 
@@ -57,14 +57,14 @@ You can train RBSR on SyntheticBurst dataset by running
 ```bash
 python ./run_training.py dbsr RBSR_synthetic
 ```
-Please change the the `zurichraw2rgb_dir` variable in [admin/local.py](admin/local.py) to your train datset path.
+Please change the the `zurichraw2rgb_dir` variable in [admin/local.py](admin/local.py) to your train dataset path.
 
 ## Train on SyntheticBurst Dataset 
 You can train RBSR on BurstSR dataset by running
 ```bash
 python ./run_training.py dbsr RBSR_realworld
 ```
-Please change the the `burstsr_dir` variable in [admin/local.py](admin/local.py) to your train datset path.
+Please change the the `burstsr_dir` variable in [admin/local.py](admin/local.py) to your train dataset path.
 
 ## Acknowledgement
 The toolkit uses code from the following projects:
