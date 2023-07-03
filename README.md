@@ -1,6 +1,6 @@
 # RBSR: Efficient and Flexible Recurrent Network for Burst Super-Resolution
 
-Official implementation of **RBSR: Efficient and Flexible Recurrent Network for Burst Super-Resolution** [arxiv](https://arxiv.org/abs/2306.17595)
+Official implementation of [RBSR: Efficient and Flexible Recurrent Network for Burst Super-Resolution](https://arxiv.org/abs/2306.17595)
 
 ## Prerequisites
 
